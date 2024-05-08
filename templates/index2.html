@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            /* The image used */
+            background-image: url("Primary/images/Bubbles.jpg");
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        div.solid {
+            background-color: rgb(168, 177, 190);
+            border-style: solid;
+        }
+
+        .solid2 {
+            background-color: rgb(155, 137, 214);
+            border-color: rgb(47, 48, 104);
+            border-style: solid;
+            border-radius: 10%;
+            width: 680px;
+            height: 450px;
+            position: absolute;
+            bottom: 30px;
+            /* adjust this value to change the margin from the bottom */
+            left: 30px;
+            /* adjust this value to change the margin from the left */
+        }
+
+        .solid3 {
+            background-color: rgb(155, 137, 214);
+            border-color: rgb(47, 48, 104);
+            border-style: solid;
+            border-radius: 10%;
+            width: 680px;
+            height: 450px;
+            position: absolute;
+            bottom: 30px;
+            /* adjust this value to change the margin from the bottom */
+            right: 30px;
+            /* adjust this value to change the margin from the left */
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 20px auto 0 auto;
+            font-size: medium;
+        }
+
+        #stepProgressBar {
+            display: flex;
+            width: 800px;
+            margin: 0 auto;
+            margin-bottom: 40px;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .step {
+            text-align: center;
+        }
+
+        .step-text {
+            margin-bottom: 30px;
+            color: blueviolet;
+        }
+
+        .bullet {
+            height: 60px;
+            width: 65px;
+            border-radius: 150%;
+            border: 4px solid #0b471f;
+            background-color: #00ff55;
+            color: black;
+            display: inline-block;
+            position: relative;
+            transition: background-color 500ms;
+            line-height: 20px;
+        }
+
+        .bullet.completed {
+            color: antiquewhite;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="solid2 text-center">
+        <p>Space for changing images</p>
+    </div>
+
+
+    <div class="solid3 text-center">
+        <p>Space for raspberry pi footage</p>
+    </div>
+
+    <div class="container solid">
+        <div id="stepProgressBar">
+
+
+            <div class="step">
+                <p class="step-text"> <b><font size="5">Step-1 </font></b></p>
+                <div class="bullet"></div>
+            </div>
+
+            <div class="step">
+                <p class="step-text"><b><font size="5">Step-2</font></b></p>
+                <div class="bullet"></div>
+            </div>
+
+            <div class="step">
+                <p class="step-text"><b><font size="5">Step-3</font></b></p>
+                <div class="bullet"></div>
+            </div>
+
+            <div class="step">
+                <p class="step-text"><b><font size="5">Step-4</font></b></p>
+                <div class="bullet"></div>
+            </div>
+
+            <div class="step">
+                <p class="step-text"><b><font size="5">Step-5</font></b></p>
+                <div class="bullet"></div>
+            </div>
+
+            <div class="step">
+                <p class="step-text"><b><font size="5">Step-5</font></b></p>
+                <div class="bullet"></div>
+            </div>
+
+            <div class="step">
+                <p class="step-text"><b><font size="5">Step-7</font></b></p>
+                <div class="bullet"></div>
+            </div>
+
+            <div class="step">
+                <p class="step-text"><b><font size="5">Step-8</font></b></p>
+                <div class="bullet"></div>
+            </div>
+
+        </div>
+    </div>
+    <script src="js.js"></script>
+
+</body>
+
+</html>
