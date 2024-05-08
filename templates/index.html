@@ -126,6 +126,7 @@
     
         <div class="solid3 text-center">
             <p>Space for raspberry pi footage</p>
+            <img id="live_video_feed" src="{{ url_for('video_feed') }}">
         </div>
     
         <div class="container solid">
@@ -133,13 +134,40 @@
 
             <h1 style="color:aliceblue; left: 36vw; position: absolute; font-size: 3em;">Handwash System</h1>
         <div class = "main_container">
-            <img id="live_video_feed" src="{{ url_for('video_feed') }}">
+            
             <h3 id="next_step"><b>Next Step:</b></h3><h3 id="step_message" style="color:aliceblue; position: absolute; font-size: 1.5em;"></h3>
             <!-- <img id="current_step_gif" src="{{ url_for('video_feed') }}"> -->
             <img id="current_step_gif" src="/static/STEP 2.gif">
             <div id="info_container"><h3 id="step_info_info">System Message:</h3>
             <h3 id="step_info"></h3></div>
 
+            """my bit"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            """ end of my bit "
             <div id="step_information">
                 <div class="column1">
                     <h3> <img id="step_1" src="/static/{{ step_image[0] }}.png" height=30px width=30px> Step 1</h3> 
